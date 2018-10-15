@@ -38,7 +38,7 @@ async function start() {
         process.exit(1);
     }
 
-    console.log('Server running at:', server.info.uri);
+    console.log('Server listening on:', server.info.uri);
 };
 
 start();
